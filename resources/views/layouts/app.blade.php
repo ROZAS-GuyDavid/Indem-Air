@@ -12,7 +12,7 @@
     </head>
     <body>
         <div id="app">
-            {{-- @include('includes.navbar') --}}
+            @include('includes.navbar')
             @yield('content')
         </div>
     </body>
